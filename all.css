@@ -1,0 +1,75 @@
+/* COMMON PAGE SECTION */
+.page-section {
+    padding: 120px 8% 60px;
+    text-align: center;
+}
+
+.page-title {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.page-subtitle {
+    color: #94a3b8;
+    margin-bottom: 40px;
+}
+
+/* EXPERIENCE */
+.experience-box {
+    background: #020617;
+    padding: 30px;
+    border-radius: 12px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.experience-box i {
+    font-size: 32px;
+    color: #38bdf8;
+    margin-bottom: 10px;
+}
+
+/* CONTACT */
+.contact-form {
+    max-width: 500px;
+    margin: auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    background: #020617;
+    border: 1px solid #1e293b;
+    color: #fff;
+    border-radius: 6px;
+}
+
+.contact-social a {
+    margin: 10px;
+    font-size: 20px;
+    color: #e5e7eb;
+}
+
+.contact-social a:hover {
+    color: #38bdf8;
+}
+
+/* HIRE ME */
+.hire-box {
+    background: #020617;
+    padding: 40px;
+    border-radius: 12px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.hire-box ul {
+    list-style: none;
+    margin: 20px 0;
+}
+
+.hire-box li {
+    margin-bottom: 10px;
+}
