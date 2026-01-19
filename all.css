@@ -1,4 +1,33 @@
-/* COMMON PAGE SECTION */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav a {
+    margin: 0 12px;
+    text-decoration: none;
+    color: #444;
+    font-size: 14px;
+}
+
+.btn {
+    background: #ff014f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
 .page-section {
     padding: 120px 8% 60px;
     text-align: center;
@@ -14,13 +43,14 @@
     margin-bottom: 40px;
 }
 
-/* EXPERIENCE */
+
 .experience-box {
-    background: #020617;
+    background:  #383d58;
     padding: 30px;
     border-radius: 12px;
     margin: 20px auto;
     max-width: 600px;
+    color: #e5e7eb;
 }
 
 .experience-box i {
@@ -29,7 +59,7 @@
     margin-bottom: 10px;
 }
 
-/* CONTACT */
+
 .contact-form {
     max-width: 500px;
     margin: auto;
@@ -40,29 +70,33 @@
     width: 100%;
     padding: 12px;
     margin-bottom: 15px;
-    background: #020617;
+    background:  #383d58;
     border: 1px solid #1e293b;
     color: #fff;
     border-radius: 6px;
 }
-
+.btn{
+    padding-bottom: 10px;
+}
 .contact-social a {
-    margin: 10px;
+    margin: 20px;
     font-size: 20px;
     color: #e5e7eb;
+    padding-top: 10px;
 }
 
 .contact-social a:hover {
     color: #38bdf8;
 }
 
-/* HIRE ME */
+
 .hire-box {
-    background: #020617;
+    background: #383d58;
     padding: 40px;
     border-radius: 12px;
     max-width: 500px;
     margin: auto;
+    color: #e5e7eb;
 }
 
 .hire-box ul {
@@ -72,4 +106,82 @@
 
 .hire-box li {
     margin-bottom: 10px;
+    text-align: center;
+}
+.hire-box a{
+    text-decoration: none;
+    padding: 10px;
+
+}
+.footer {
+    background: #020617;
+    padding: 60px 8% 20px;
+    color: #cbd5f5;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.footer-brand h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer-brand span {
+    color: #38bdf8;
+}
+
+.footer-brand p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-links h4,
+.footer-social h4 {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #e5e7eb;
+}
+
+.footer-links a {
+    display: block;
+    color: #cbd5f5;
+    text-decoration: none;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    color: #38bdf8;
+}
+
+.social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background: #0f172a;
+    color: #e5e7eb;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    background: #38bdf8;
+    color: #020617;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 13px;
+    border-top: 1px solid #1e293b;
+    padding-top: 15px;
+    color: #94a3b8;
 }
